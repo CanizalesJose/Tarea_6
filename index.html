@@ -3,75 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 6</title>
+    <title>Curriculum: Formación Academica</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-        <div class="container">
+          <div class="container">
 
-            <a class="navbar-brand" href="#">
-                <img src="Logo Tecnm.png" id="logoPrincipal">
-            </a>
-      
-      
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      
-            <span class="navbar-toggler-icon"></span>
-      
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarNav">
-      
-            <ul class="navbar-nav ml-auto">
-      
-              <li class="nav-item">
-      
-                <a class="nav-link" href="inicio.html">Inicio</a>
-      
-              </li>
-      
-              <li class="nav-item">
-      
-                <a class="nav-link" href="#">Estudios</a>
-      
-              </li>
-      
-              <li class="nav-item">
-      
-                <a class="nav-link" href="#">Experiencia Laboral</a>
-      
-              </li>
-      
-              <li class="nav-item">
-      
-                <a class="nav-link" href="#">Experiencia Profesional</a>
-      
-              </li>
+              <a class="navbar-brand" href="index.html">
+                  <img src="imagenes/Logo Tecnm.png" id="logoPrincipal">
+              </a>
+        
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+              <span class="navbar-toggler-icon"></span>
+        
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarNav">
+        
+              <ul class="navbar-nav ml-auto">
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
-              </li>
-      
-            </ul>
-      
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Formación Academica</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="experiencia_profesional.html">Experiencia Profesional</a>
+                </li>
+        
+              </ul>
+        
+            </div>
+        
           </div>
-      
-        </div>
-      
-      </nav>
-
+        
+        </nav>
+      </header>
       <!--Inicio del contenido de la página-->
 
-      <container class="parrafoLateral">
-        <p>
+      <aside>
 
-        </p>
-      </container>
+        <img src="imagenes/foto.jpg" class="fotoPersonal">
+
+        <h3>Información de Contacto</h3>
+        
+        <div class="container">
+          <ul class="list-group">
+            <a class="list-group-item list-group-item-action list-group-item-dark" href="https://gmail.com">
+              <img src="imagenes/logo1.png" class="logoLateral">
+              Email: a20490690@gmail.com
+            </a>
+            <a class="list-group-item list-group-item-action list-group-item-dark" href="https://facebook.com">
+              <img src="imagenes/logo2.png" class="logoLateral">
+              Facebook
+            </a>
+            <a class="list-group-item list-group-item-action list-group-item-dark" href="https://twitter.com">
+              <img src="imagenes/logo3.png" class="logoLateral">
+              Twitter
+            </a>
+            <a class="list-group-item list-group-item-action list-group-item-dark" href="https://youtu.be">
+              <img src="imagenes/logo4.png" class="logoLateral">
+              YouTube
+            </a>
+            <a class="list-group-item list-group-item-action list-group-item-dark" href="https://github.com">
+              <img src="imagenes/logo5.png" class="logoLateral">
+              GitHub
+            </a>
+            <li class="list-group-item list-group-item-dark">Telefono: 686-307-9937</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h3>
+            Sobre Mi
+          </h3>
+          <p class="textoLateral">
+            Ingeniero en Sistemas Computacionales con 3 años de experiencia en el desarrollo, implementación y gestión de sistemas de información.
+            Amplio conocimiento en el diseño de arquitecturas de software, programación, administración de bases de datos y resolución de problemas técnicos.
+            Apasionado por la tecnología y comprometido con la entrega de soluciones eficientes y de alta calidad.
+          </p>
+        </div>
+
+      </aside>
+        
+      <main>
+
+        <h2>Escuelas</h2>
+        <div class="container">
+          <table>
+            <tr class="tableHead">
+              <th>Nombre Institución</th>
+              <th>Nivel de Estudio</th>
+              <th>Años</th>
+            </tr>
+            <tr class="rowImpar">
+              <td>Estado de Baja California</td>
+              <td>Básico</td>
+              <td>6 Años</td>
+            </tr>
+            <tr class="rowPar">
+              <td>Colegio Internacional Bilingüe</td>
+              <td>Medio Superior</td>
+              <td>3 Años</td>
+            </tr>
+            <tr class="rowImpar">
+              <td>Colegio de Estudios Cientificos y Tecnologicos del Estado de Baja California</td>
+              <td>Medio Superior</td>
+              <td>3 Años</td>
+            </tr>
+            <tr class="rowPar">
+              <td>Instituto Tecnologico de Mexicali</td>
+              <td>Superior</td>
+              <td>3 Años</td>
+            </tr>
+          </table>
+        </div>
+
+        <h2>Habilidades Técnicas</h2>
+        <div class="container">
+          <ul>
+            <li>Lenguajes de Programación: Java, Python, C++ y C#</li>
+            <li>Desarrollo web: HTML, CSS, JavaScript, Angular</li>
+            <li>Bases de Datos: SQL, Oracle, MongoDB</li>
+            <li>Arquitecturas de Software: MVC, Microservicios</li>
+            <li>Herramientas de Desarrollo: Git, Docker</li>
+            <li>Sistemas Operativos: Windows, Linux</li>
+            <li>Seguridad Informática: Firewalls, Criptografía</li>
+          </ul>
+        </div>
+
+        <h2>Idiomas</h2>
+        <div class="container">
+          <ul>
+            <li>Español: Idioma Nativo</li>
+            <li>Inglés: Avanzado</li>
+          </ul>
+        </div>
+
+        <h2>Certificaciones</h2>
+        <div class="container">
+          <ul>
+            <li>Certified Information Systems Security Professional (CISSP)</li>
+            <li>Google Professional Cloud Architect</li>
+            <li>Microsoft Certified: Azure Fundamentals</li>
+            <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+          </ul>
+        </div>
+
+      </main>
+
+      <footer>
+        Canizales López José Manuel - 20490690
+      </footer>
 
 </body>
 </html>
